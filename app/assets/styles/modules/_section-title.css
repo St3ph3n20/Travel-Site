@@ -12,13 +12,20 @@
 
   }
 
+  &--blue {
+    color: $mainBlue;
+  }
+
   &__icon{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: .6rem;
+    padding-right: 20px;
 
     @mixin atSmall{
+      position: relative;
+      top: 8px;
       margin-right: .5rem;
       margin-right: 0;
       margin-bottom: 0;
